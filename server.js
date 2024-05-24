@@ -27,6 +27,12 @@ app.get("/flame", (req, res) => {
   );
 });
 
+app.get("/cloud", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://github.com/yuvrajkushwahh"/>`
+  );
+});
+
 app.get("/fuego", (req, res) => {
   res.send(
     `<meta http-equiv="refresh" content="0; URL=https://discord.com/application-directory/1050423676689985606"/>`
