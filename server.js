@@ -45,6 +45,12 @@ app.get("/flare", (req, res) => {
   );
 });
 
+app.get("/carli", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://github.com/MoonCarli"/>`
+  );
+});
+
 app.listen(port, () => {
   console.log(`Loaded Web server | Port : (${port})`, "success");
 });
