@@ -39,6 +39,12 @@ app.get("/tutorial", (req, res) => {
   );
 });
 
+app.get("/reddit", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://www.reddit.com/r/Codesforfun/"/>`
+  );
+});
+
 app.get("/fuego", (req, res) => {
   res.send(
     `<meta http-equiv="refresh" content="0; URL=https://discord.com/application-directory/1050423676689985606"/>`
