@@ -29,7 +29,7 @@ app.get("/flame", (req, res) => {
 
 app.get("/cloud", (req, res) => {
   res.send(
-    `<meta http-equiv="refresh" content="0; URL=https://github.com/yuvrajkushwahh"/>`
+    `<meta http-equiv="refresh" content="0; URL=https://github.com/cloud9here"/>`
   );
 });
 
