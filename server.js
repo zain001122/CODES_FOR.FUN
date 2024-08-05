@@ -21,6 +21,12 @@ app.get("/painfuego", (req, res) => {
   );
 });
 
+app.get("/zaintech.online", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://github.com/zaintech.online"/>`
+  );
+});
+
 app.get("/flame", (req, res) => {
   res.send(
     `<meta http-equiv="refresh" content="0; URL=https://github.com/flame3301"/>`
