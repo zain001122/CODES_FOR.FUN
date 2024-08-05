@@ -21,6 +21,12 @@ app.get("/painfuego", (req, res) => {
   );
 });
 
+app.get("/tutorial", (req, res) => {
+  res.send(
+    `<meta http-equiv="refresh" content="0; URL=https://github.com/zainhaccer"/>`
+  );
+});
+
 app.get("/flame", (req, res) => {
   res.send(
     `<meta http-equiv="refresh" content="0; URL=https://github.com/flame3301"/>`
